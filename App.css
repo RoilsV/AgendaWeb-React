@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf6ec;
+  color: #003366;
+}
+
+.agenda-wrapper {
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: #f5faff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.08);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #ffffff;
+  background-color: #1c3f94;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #1c3f94;
+  margin-bottom: 1rem;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.formulario-contacto input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #cce0f5;
+  border-radius: 0;
+  flex: 1 1 auto;
+  background-color: #ffffff;
+}
+
+.formulario-contacto button {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  background-color: #5b9bd5;
+  color: white;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.formulario-contacto button:hover {
+  background-color: #3b7fc4;
+}
+
+.seccion-contactos {
+  margin-top: 2rem;
+}
+
+.contactos-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.contactos-tabla th,
+.contactos-tabla td {
+  border: 1px solid #cce0f5;
+  padding: 0.75rem;
+  text-align: left;
+  background-color: #fff;
+}
+
+.contactos-tabla th {
+  background-color: #e3f0fb;
+}
+
+.icono-persona {
+  color: #407ec9;
+  margin-right: 8px;
+}
